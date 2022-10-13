@@ -47,4 +47,6 @@ https://www.solutions-cubed.com/content/Downloads/MotionMind3Docs/MOTM3DS_8.pdf
 
 ![image](https://user-images.githubusercontent.com/97303986/195306563-758218d5-942d-4a89-b04f-3d3cab5c4d99.png)
 
+### Mode 1 Analog Input
+![image](https://user-images.githubusercontent.com/97303986/195575898-86bd3671-4cfe-4e0e-ae1a-fb9dc0c34987.png)
 
