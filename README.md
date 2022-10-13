@@ -2,11 +2,11 @@
 
 
 ## Linear Actuator
-https://www.transmotec.com/Download/Datasheets/Transmotec-Datasheet-DLA-HS2.pdf
-https://www.transmotec.com/product/DLA-12-40-A-300-HS2-IP65/
-DC Motor with Encoder, Hall Sensor & Integrated Limit Switches
+https://www.transmotec.com/Download/Datasheets/Transmotec-Datasheet-DLA-HS2.pdf <br>
+https://www.transmotec.com/product/DLA-12-40-A-300-HS2-IP65/ <br>
+DC Motor with Encoder, Hall Sensor & Integrated Limit Switches <br>
 
-![image](https://user-images.githubusercontent.com/97303986/195563077-13449ff5-46e8-45b1-bd78-061a8042fca3.png)
+![image](https://user-images.githubusercontent.com/97303986/195563077-13449ff5-46e8-45b1-bd78-061a8042fca3.png) <br>
 Limit Switch wiring, blocks current flow in limited direction when end stop is reached.
 
 ## Encoder Board
