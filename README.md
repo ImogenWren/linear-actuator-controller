@@ -2,8 +2,12 @@
 
 
 ## Linear Actuator
+https://www.transmotec.com/Download/Datasheets/Transmotec-Datasheet-DLA-HS2.pdf <br>
+https://www.transmotec.com/product/DLA-12-40-A-300-HS2-IP65/ <br>
+DC Motor with Encoder, Hall Sensor & Integrated Limit Switches <br>
 
-DC Motor with Encoder
+![image](https://user-images.githubusercontent.com/97303986/195563077-13449ff5-46e8-45b1-bd78-061a8042fca3.png) <br>
+Limit Switch wiring, blocks current flow in limited direction when end stop is reached.
 
 ## Encoder Board
 
@@ -14,6 +18,10 @@ DC Motor with Encoder
 Motion Mind Rev 2 HW
 solutions-cubed.com
 https://www.solutions-cubed.com/content/Downloads/MotionMind3Docs/MOTM3DS_8.pdf
+
+## Mode DIP Switches
+![image](https://user-images.githubusercontent.com/97303986/195544371-85b4379f-e569-47cd-9fc2-7db258568ca6.png)
+
 
 ## Serial Wiring Diagram
 ![image](https://user-images.githubusercontent.com/97303986/195305750-501327d1-2edd-4a1a-8314-b4dd567ab5b1.png)
