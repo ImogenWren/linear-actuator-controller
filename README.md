@@ -15,6 +15,10 @@ Motion Mind Rev 2 HW
 solutions-cubed.com
 https://www.solutions-cubed.com/content/Downloads/MotionMind3Docs/MOTM3DS_8.pdf
 
+## Mode DIP Switches
+![image](https://user-images.githubusercontent.com/97303986/195544371-85b4379f-e569-47cd-9fc2-7db258568ca6.png)
+
+
 ## Serial Wiring Diagram
 ![image](https://user-images.githubusercontent.com/97303986/195305750-501327d1-2edd-4a1a-8314-b4dd567ab5b1.png)
 
