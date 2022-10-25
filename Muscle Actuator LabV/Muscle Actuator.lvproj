@@ -60,7 +60,7 @@
 		<Item Name="Type Definitions" Type="Folder">
 			<Item Name="UI Data.ctl" Type="VI" URL="../controls/UI Data.ctl"/>
 		</Item>
-		<Item Name="Generate PPM Waveform.vi" Type="VI" URL="../../../SUB VIs/Generate PPM Waveform.vi"/>
+		<Item Name="Generate PPM Waveform.vi" Type="VI" URL="../../../SUB VIs/Waveform Generation/Generate PPM Waveform.vi"/>
 		<Item Name="Main.vi" Type="VI" URL="../Main.vi"/>
 		<Item Name="PPM Driver.vi" Type="VI" URL="../Sub VIs/PPM Driver.vi"/>
 		<Item Name="Dependencies" Type="Dependencies">
@@ -233,7 +233,7 @@
 				<Item Name="Trim Whitespace.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Trim Whitespace.vi"/>
 				<Item Name="whitespace.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/whitespace.ctl"/>
 			</Item>
-			<Item Name="Digital Waveform Output.vi" Type="VI" URL="../../../SUB VIs/Digital Waveform Output.vi"/>
+			<Item Name="DAQ Digital Waveform Output.vi" Type="VI" URL="../../../SUB VIs/DAQ VIs/DAQ Digital Waveform Output.vi"/>
 			<Item Name="Init DAQ Digital Output.vi" Type="VI" URL="../../../SUB VIs/DAQ VIs/Init DAQ Digital Output.vi"/>
 			<Item Name="lvanlys.dll" Type="Document" URL="/&lt;resource&gt;/lvanlys.dll"/>
 			<Item Name="nilvaiu.dll" Type="Document" URL="nilvaiu.dll">
