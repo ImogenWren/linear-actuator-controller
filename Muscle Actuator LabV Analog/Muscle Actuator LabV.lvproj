@@ -25,8 +25,9 @@
 			<Item Name="DAQ Digital Output.vi" Type="VI" URL="../SUB VIs/DAQ VIs/DAQ Digital Output.vi"/>
 			<Item Name="DAQ Multi IO Init.vi" Type="VI" URL="../SUB VIs/DAQ VIs/DAQ Multi IO Init.vi"/>
 			<Item Name="DAQ Set Analog Pin.vi" Type="VI" URL="../SUB VIs/DAQ VIs/DAQ Set Analog Pin.vi"/>
-			<Item Name="Init DAQ Analog Out.vi" Type="VI" URL="../../../DAQ VIs/Init DAQ Analog Out.vi"/>
-			<Item Name="Init DAQ Digital Output.vi" Type="VI" URL="../../../DAQ VIs/Init DAQ Digital Output.vi"/>
+			<Item Name="Init DAQ Analog Input.vi" Type="VI" URL="../SUB VIs/DAQ VIs/Init DAQ Analog Input.vi"/>
+			<Item Name="Init DAQ Analog Out.vi" Type="VI" URL="../SUB VIs/DAQ VIs/Init DAQ Analog Out.vi"/>
+			<Item Name="Init DAQ Digital Output.vi" Type="VI" URL="../SUB VIs/DAQ VIs/Init DAQ Digital Output.vi"/>
 		</Item>
 		<Item Name="Project Documentation" Type="Folder">
 			<Property Name="NI.SortType" Type="Int">3</Property>
@@ -235,8 +236,6 @@
 				<Item Name="Trim Whitespace.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Trim Whitespace.vi"/>
 				<Item Name="whitespace.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/whitespace.ctl"/>
 			</Item>
-			<Item Name="Init DAQ Analog Out.vi" Type="VI" URL="../SUB VIs/DAQ VIs/Init DAQ Analog Out.vi"/>
-			<Item Name="Init DAQ Digital Output.vi" Type="VI" URL="../SUB VIs/DAQ VIs/Init DAQ Digital Output.vi"/>
 			<Item Name="nilvaiu.dll" Type="Document" URL="nilvaiu.dll">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
