@@ -20,7 +20,9 @@
 		<Property Name="server.vi.callsEnabled" Type="Bool">true</Property>
 		<Property Name="server.vi.propertiesEnabled" Type="Bool">true</Property>
 		<Property Name="specify.custom.address" Type="Bool">false</Property>
-		<Item Name="Controls" Type="Folder"/>
+		<Item Name="Controls" Type="Folder">
+			<Item Name="Timer State.ctl" Type="VI" URL="../../../GasPermeation Dual Piston Lab/Gas Permeation/controls/Timer State.ctl"/>
+		</Item>
 		<Item Name="DAQ VIs" Type="Folder">
 			<Item Name="DAQ Digital Output.vi" Type="VI" URL="../SUB VIs/DAQ VIs/DAQ Digital Output.vi"/>
 			<Item Name="DAQ Multi IO Init.vi" Type="VI" URL="../SUB VIs/DAQ VIs/DAQ Multi IO Init.vi"/>
@@ -72,6 +74,7 @@
 			<Item Name="Status Lights.ctl" Type="VI" URL="../Controls/Status Lights.ctl"/>
 			<Item Name="UI Data.ctl" Type="VI" URL="../Controls/UI Data.ctl"/>
 		</Item>
+		<Item Name="Action Engine.vi" Type="VI" URL="../../../GasPermeation Dual Piston Lab/Gas Permeation/Sub VI/Action Engine.vi"/>
 		<Item Name="Main.vi" Type="VI" URL="../Main.vi"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
@@ -297,6 +300,7 @@
 			<Item Name="nilvaiu.dll" Type="Document" URL="nilvaiu.dll">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
+			<Item Name="Square Clock Pulse subVI.vi" Type="VI" URL="../../../SUB VIs/Timing &amp; Triggers/Square Clock Pulse subVI.vi"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build">
 			<Item Name="Main Application" Type="EXE">
