@@ -21,7 +21,7 @@
 		<Property Name="server.vi.propertiesEnabled" Type="Bool">true</Property>
 		<Property Name="specify.custom.address" Type="Bool">false</Property>
 		<Item Name="Controls" Type="Folder">
-			<Item Name="Timer State.ctl" Type="VI" URL="../../../GasPermeation Dual Piston Lab/Gas Permeation/controls/Timer State.ctl"/>
+			<Item Name="Timer Actions.ctl" Type="VI" URL="../Controls/Timer Actions.ctl"/>
 		</Item>
 		<Item Name="DAQ VIs" Type="Folder">
 			<Item Name="DAQ Digital Output.vi" Type="VI" URL="../SUB VIs/DAQ VIs/DAQ Digital Output.vi"/>
@@ -69,13 +69,17 @@
 			<Item Name="Error Handler - Event Handling Loop.vi" Type="VI" URL="../support/Error Handler - Event Handling Loop.vi"/>
 			<Item Name="Error Handler - Message Handling Loop.vi" Type="VI" URL="../support/Error Handler - Message Handling Loop.vi"/>
 		</Item>
+		<Item Name="Test VIs" Type="Folder">
+			<Item Name="Action Engine Auto Reset Test.vi" Type="VI" URL="../SUB VIs/Action Engine/Action Engine Auto Reset Test.vi"/>
+		</Item>
 		<Item Name="Type Definitions" Type="Folder">
 			<Item Name="DAQ Refnums.ctl" Type="VI" URL="../Controls/DAQ Refnums.ctl"/>
 			<Item Name="Status Lights.ctl" Type="VI" URL="../Controls/Status Lights.ctl"/>
 			<Item Name="UI Data.ctl" Type="VI" URL="../Controls/UI Data.ctl"/>
 		</Item>
-		<Item Name="Action Engine.vi" Type="VI" URL="../../../GasPermeation Dual Piston Lab/Gas Permeation/Sub VI/Action Engine.vi"/>
+		<Item Name="Latch if True.vi" Type="VI" URL="../../../SUB VIs/Logic Functions/Latch if True.vi"/>
 		<Item Name="Main.vi" Type="VI" URL="../Main.vi"/>
+		<Item Name="Timer Action Engine Latching.vi" Type="VI" URL="../SUB VIs/Action Engine/Timer Action Engine Latching.vi"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="BuildHelpPath.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/BuildHelpPath.vi"/>
@@ -297,10 +301,11 @@
 				<Item Name="Trim Whitespace.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Trim Whitespace.vi"/>
 				<Item Name="whitespace.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/whitespace.ctl"/>
 			</Item>
+			<Item Name="NAND Flip Flop.vi" Type="VI" URL="../../../SUB VIs/Logic Functions/NAND Flip Flop.vi"/>
 			<Item Name="nilvaiu.dll" Type="Document" URL="nilvaiu.dll">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
-			<Item Name="Square Clock Pulse subVI.vi" Type="VI" URL="../../../SUB VIs/Timing &amp; Triggers/Square Clock Pulse subVI.vi"/>
+			<Item Name="Timer Action Engine Auto Reset.vi" Type="VI" URL="../SUB VIs/Action Engine/Timer Action Engine Auto Reset.vi"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build">
 			<Item Name="Main Application" Type="EXE">
