@@ -61,6 +61,10 @@
 			</Item>
 			<Item Name="Queued Message Handler Documentation.html" Type="Document" URL="../documentation/Queued Message Handler Documentation.html"/>
 		</Item>
+		<Item Name="Sub VIs" Type="Folder">
+			<Item Name="Latch if True.vi" Type="VI" URL="../../../SUB VIs/Logic Functions/Latch if True.vi"/>
+			<Item Name="Timer Action Engine Latching.vi" Type="VI" URL="../SUB VIs/Action Engine/Timer Action Engine Latching.vi"/>
+		</Item>
 		<Item Name="Support VIs" Type="Folder">
 			<Property Name="NI.SortType" Type="Int">3</Property>
 			<Item Name="Message Queue.lvlib" Type="Library" URL="../support/Message Queue/Message Queue.lvlib"/>
@@ -77,9 +81,7 @@
 			<Item Name="Status Lights.ctl" Type="VI" URL="../Controls/Status Lights.ctl"/>
 			<Item Name="UI Data.ctl" Type="VI" URL="../Controls/UI Data.ctl"/>
 		</Item>
-		<Item Name="Latch if True.vi" Type="VI" URL="../../../SUB VIs/Logic Functions/Latch if True.vi"/>
 		<Item Name="Main.vi" Type="VI" URL="../Main.vi"/>
-		<Item Name="Timer Action Engine Latching.vi" Type="VI" URL="../SUB VIs/Action Engine/Timer Action Engine Latching.vi"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="BuildHelpPath.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/BuildHelpPath.vi"/>
