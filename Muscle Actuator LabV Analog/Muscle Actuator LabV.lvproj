@@ -81,7 +81,13 @@
 			<Item Name="Status Lights.ctl" Type="VI" URL="../Controls/Status Lights.ctl"/>
 			<Item Name="UI Data.ctl" Type="VI" URL="../Controls/UI Data.ctl"/>
 		</Item>
-		<Item Name="Main.vi" Type="VI" URL="../Main.vi"/>
+		<Item Name="Buttons to Message.vi" Type="VI" URL="../SUB VIs/Buttons to Message.vi"/>
+		<Item Name="Clear DAQ Multi IO.vi" Type="VI" URL="../SUB VIs/DAQ VIs/Clear DAQ Multi IO.vi"/>
+		<Item Name="Hardware PID Controller.vi" Type="VI" URL="../SUB VIs/Hardware PID Controller.vi"/>
+		<Item Name="Main_PID.vi" Type="VI" URL="../Main_PID.vi"/>
+		<Item Name="PID State Machine.vi" Type="VI" URL="../PID State Machine.vi"/>
+		<Item Name="PID_controller.vi" Type="VI" URL="../PID_controller.vi"/>
+		<Item Name="State Machine Data.ctl" Type="VI" URL="../Controls/State Machine Data.ctl"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="BuildHelpPath.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/BuildHelpPath.vi"/>
@@ -291,7 +297,10 @@
 				<Item Name="GetRTHostConnectedProp.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/GetRTHostConnectedProp.vi"/>
 				<Item Name="Longest Line Length in Pixels.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Longest Line Length in Pixels.vi"/>
 				<Item Name="LVBoundsTypeDef.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/miscctls.llb/LVBoundsTypeDef.ctl"/>
+				<Item Name="lvpidtkt.dll" Type="Document" URL="/&lt;vilib&gt;/addons/control/pid/lvpidtkt.dll"/>
 				<Item Name="LVRectTypeDef.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/miscctls.llb/LVRectTypeDef.ctl"/>
+				<Item Name="NI_PID__prctrl compat.lvlib" Type="Library" URL="/&lt;vilib&gt;/addons/control/pid/NI_PID__prctrl compat.lvlib"/>
+				<Item Name="NI_PID_pid.lvlib" Type="Library" URL="/&lt;vilib&gt;/addons/control/pid/NI_PID_pid.lvlib"/>
 				<Item Name="Not Found Dialog.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Not Found Dialog.vi"/>
 				<Item Name="Search and Replace Pattern.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Search and Replace Pattern.vi"/>
 				<Item Name="Set Bold Text.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Set Bold Text.vi"/>
@@ -335,7 +344,7 @@
 				<Property Name="Source[0].itemID" Type="Str">{E7BFF366-DAB8-43B4-AA23-0662F14B8EC9}</Property>
 				<Property Name="Source[0].type" Type="Str">Container</Property>
 				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
-				<Property Name="Source[1].itemID" Type="Ref">/My Computer/Main.vi</Property>
+				<Property Name="Source[1].itemID" Type="Ref">/My Computer/Main_PID.vi</Property>
 				<Property Name="Source[1].sourceInclusion" Type="Str">TopLevel</Property>
 				<Property Name="Source[1].type" Type="Str">VI</Property>
 				<Property Name="SourceCount" Type="Int">2</Property>
