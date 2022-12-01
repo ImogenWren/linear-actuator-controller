@@ -62,7 +62,13 @@
 			<Item Name="Queued Message Handler Documentation.html" Type="Document" URL="../documentation/Queued Message Handler Documentation.html"/>
 		</Item>
 		<Item Name="Sub VIs" Type="Folder">
+			<Item Name="Buttons to Message.vi" Type="VI" URL="../SUB VIs/Buttons to Message.vi"/>
+			<Item Name="Clear DAQ Multi IO.vi" Type="VI" URL="../SUB VIs/DAQ VIs/Clear DAQ Multi IO.vi"/>
+			<Item Name="Hardware PID Controller.vi" Type="VI" URL="../SUB VIs/Hardware PID Controller.vi"/>
 			<Item Name="Latch if True.vi" Type="VI" URL="../../../SUB VIs/Logic Functions/Latch if True.vi"/>
+			<Item Name="Motor Brake Control.vi" Type="VI" URL="../SUB VIs/Motor Brake Control.vi"/>
+			<Item Name="PID_controller.vi" Type="VI" URL="../PID_controller.vi"/>
+			<Item Name="Safe Stop IO.vi" Type="VI" URL="../SUB VIs/Safe Stop IO.vi"/>
 			<Item Name="Timer Action Engine Latching.vi" Type="VI" URL="../SUB VIs/Action Engine/Timer Action Engine Latching.vi"/>
 		</Item>
 		<Item Name="Support VIs" Type="Folder">
@@ -77,17 +83,14 @@
 			<Item Name="Action Engine Auto Reset Test.vi" Type="VI" URL="../SUB VIs/Action Engine/Action Engine Auto Reset Test.vi"/>
 		</Item>
 		<Item Name="Type Definitions" Type="Folder">
+			<Property Name="NI.SortType" Type="Int">3</Property>
 			<Item Name="DAQ Refnums.ctl" Type="VI" URL="../Controls/DAQ Refnums.ctl"/>
-			<Item Name="Status Lights.ctl" Type="VI" URL="../Controls/Status Lights.ctl"/>
+			<Item Name="State Machine Data.ctl" Type="VI" URL="../Controls/State Machine Data.ctl"/>
 			<Item Name="UI Data.ctl" Type="VI" URL="../Controls/UI Data.ctl"/>
+			<Item Name="Status Lights.ctl" Type="VI" URL="../Controls/Status Lights.ctl"/>
 		</Item>
-		<Item Name="Buttons to Message.vi" Type="VI" URL="../SUB VIs/Buttons to Message.vi"/>
-		<Item Name="Clear DAQ Multi IO.vi" Type="VI" URL="../SUB VIs/DAQ VIs/Clear DAQ Multi IO.vi"/>
-		<Item Name="Hardware PID Controller.vi" Type="VI" URL="../SUB VIs/Hardware PID Controller.vi"/>
 		<Item Name="Main_PID.vi" Type="VI" URL="../Main_PID.vi"/>
 		<Item Name="PID State Machine.vi" Type="VI" URL="../PID State Machine.vi"/>
-		<Item Name="PID_controller.vi" Type="VI" URL="../PID_controller.vi"/>
-		<Item Name="State Machine Data.ctl" Type="VI" URL="../Controls/State Machine Data.ctl"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="BuildHelpPath.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/BuildHelpPath.vi"/>
