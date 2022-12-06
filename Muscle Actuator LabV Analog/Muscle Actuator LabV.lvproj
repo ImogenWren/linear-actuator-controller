@@ -64,6 +64,7 @@
 		<Item Name="Sub VIs" Type="Folder">
 			<Item Name="Buttons to Message.vi" Type="VI" URL="../SUB VIs/Buttons to Message.vi"/>
 			<Item Name="Clear DAQ Multi IO.vi" Type="VI" URL="../SUB VIs/DAQ VIs/Clear DAQ Multi IO.vi"/>
+			<Item Name="Hardware Manual Controller.vi" Type="VI" URL="../SUB VIs/Hardware Manual Controller.vi"/>
 			<Item Name="Hardware PID Controller.vi" Type="VI" URL="../SUB VIs/Hardware PID Controller.vi"/>
 			<Item Name="Latch if True.vi" Type="VI" URL="../../../SUB VIs/Logic Functions/Latch if True.vi"/>
 			<Item Name="Motor Brake Control.vi" Type="VI" URL="../SUB VIs/Motor Brake Control.vi"/>
