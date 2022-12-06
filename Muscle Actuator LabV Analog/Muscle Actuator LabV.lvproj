@@ -91,6 +91,7 @@
 			<Item Name="Status Lights.ctl" Type="VI" URL="../Controls/Status Lights.ctl"/>
 		</Item>
 		<Item Name="Main_PID.vi" Type="VI" URL="../Main_PID.vi"/>
+		<Item Name="PID State Machine(safe copy).vi" Type="VI" URL="../PID State Machine(safe copy).vi"/>
 		<Item Name="PID State Machine.vi" Type="VI" URL="../PID State Machine.vi"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
