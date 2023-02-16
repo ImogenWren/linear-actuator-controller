@@ -2,6 +2,7 @@
 <Project Type="Project" LVVersion="21008000">
 	<Property Name="NI.LV.All.SourceOnly" Type="Bool">false</Property>
 	<Property Name="SMProvider.SMVersion" Type="Int">201310</Property>
+	<Property Name="varPersistentID:{1A1D4BC2-1525-4A1E-854E-FBC39B6425E8}" Type="Ref">/My Computer/Untitled Library 1.lvlib/Manual Control Cluster</Property>
 	<Item Name="My Computer" Type="My Computer">
 		<Property Name="IOScan.Faults" Type="Str"></Property>
 		<Property Name="IOScan.NetVarPeriod" Type="UInt">100</Property>
@@ -62,7 +63,7 @@
 			<Item Name="Queued Message Handler Documentation.html" Type="Document" URL="../documentation/Queued Message Handler Documentation.html"/>
 		</Item>
 		<Item Name="Sub VIs" Type="Folder">
-			<Item Name="Buttons to Message.vi" Type="VI" URL="../SUB VIs/Buttons to Message.vi"/>
+			<Item Name="Buttons to Message-Simple.vi" Type="VI" URL="../SUB VIs/Buttons to Message-Simple.vi"/>
 			<Item Name="Clear DAQ Multi IO.vi" Type="VI" URL="../SUB VIs/DAQ VIs/Clear DAQ Multi IO.vi"/>
 			<Item Name="Hardware Manual Controller.vi" Type="VI" URL="../SUB VIs/Hardware Manual Controller.vi"/>
 			<Item Name="Hardware PID Controller.vi" Type="VI" URL="../SUB VIs/Hardware PID Controller.vi"/>
@@ -90,9 +91,13 @@
 			<Item Name="UI Data.ctl" Type="VI" URL="../Controls/UI Data.ctl"/>
 			<Item Name="Status Lights.ctl" Type="VI" URL="../Controls/Status Lights.ctl"/>
 		</Item>
+		<Item Name="KeyboardController.vi" Type="VI" URL="../Controls/KeyboardController.vi"/>
 		<Item Name="Main_PID.vi" Type="VI" URL="../Main_PID.vi"/>
+		<Item Name="ManualConttrolCluster.ctl" Type="VI" URL="../Controls/ManualConttrolCluster.ctl"/>
+		<Item Name="ManualMotorControl.vi" Type="VI" URL="../ManualMotorControl.vi"/>
 		<Item Name="PID State Machine(safe copy).vi" Type="VI" URL="../PID State Machine(safe copy).vi"/>
 		<Item Name="PID State Machine.vi" Type="VI" URL="../PID State Machine.vi"/>
+		<Item Name="Untitled Library 1.lvlib" Type="Library" URL="../Library/Untitled Library 1.lvlib"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="BuildHelpPath.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/BuildHelpPath.vi"/>
@@ -291,6 +296,7 @@
 				<Item Name="Error Cluster From Error Code.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Error Cluster From Error Code.vi"/>
 				<Item Name="Error Code Database.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Error Code Database.vi"/>
 				<Item Name="ErrWarn.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/ErrWarn.ctl"/>
+				<Item Name="eventsource.ctl" Type="VI" URL="/&lt;vilib&gt;/event_ctls.llb/eventsource.ctl"/>
 				<Item Name="eventvkey.ctl" Type="VI" URL="/&lt;vilib&gt;/event_ctls.llb/eventvkey.ctl"/>
 				<Item Name="Find Tag.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Find Tag.vi"/>
 				<Item Name="Format Message String.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Format Message String.vi"/>
@@ -302,6 +308,7 @@
 				<Item Name="GetRTHostConnectedProp.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/GetRTHostConnectedProp.vi"/>
 				<Item Name="Longest Line Length in Pixels.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Longest Line Length in Pixels.vi"/>
 				<Item Name="LVBoundsTypeDef.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/miscctls.llb/LVBoundsTypeDef.ctl"/>
+				<Item Name="lveventtype.ctl" Type="VI" URL="/&lt;vilib&gt;/event_ctls.llb/lveventtype.ctl"/>
 				<Item Name="lvpidtkt.dll" Type="Document" URL="/&lt;vilib&gt;/addons/control/pid/lvpidtkt.dll"/>
 				<Item Name="LVRectTypeDef.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/miscctls.llb/LVRectTypeDef.ctl"/>
 				<Item Name="NI_PID__prctrl compat.lvlib" Type="Library" URL="/&lt;vilib&gt;/addons/control/pid/NI_PID__prctrl compat.lvlib"/>
