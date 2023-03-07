@@ -8,8 +8,8 @@ Program to drive Infineon Motor Driver Sheild for Arduino Uno
  Speed - Analog (0 - 5v)
 
 Outputs:
-PWM - Controls Speed and Direction based on input to Infineon Motor Driver Shield
-Enable - Digital pins (HIGH/LOW) to enable motor drive. 
+PWM - Controls Speed and Direction based on whether sent into IN_1 or IN_2 on Infineon Motor Driver Shield.
+Enable (1 and 2) - Digital pins (HIGH/LOW) to enable motor drive. 
 */
 
 
