@@ -1,9 +1,15 @@
-/* Infineon Motor Driver Analog & Direction to PWM Motor Controller
+/* Infineon Motor Driver Controller - Speed, Direction & Brake Input
 
-   Infineon Inputs
+Program to drive Infineon Motor Driver Sheild for Arduino Uno
+ 
+ Control Inputs:
+ Brake - Digital (HIGH/LOW)
+ Direction - Digital (HIGH/LOW)
+ Speed - Analog (0 - 5v)
 
-
-
+Outputs:
+PWM - Controls Speed and Direction based on input to Infineon Motor Driver Shield
+Enable - Digital pins (HIGH/LOW) to enable motor drive. 
 */
 
 
