@@ -148,10 +148,8 @@ void setup() {
   pinMode(ENABLE_1, OUTPUT);
   pinMode(IN_2, OUTPUT);
   pinMode(IN_1, OUTPUT);
-
   pinMode(BRAKE_INPUT, INPUT);
   pinMode(DIRECTION_INPUT, INPUT);
-
   setEnablePins(false);
   stopPWM();
 }
