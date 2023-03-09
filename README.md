@@ -36,7 +36,8 @@ Actuator Status is displayed in `Motor Status` Traffic Light Cluster
 
 
 ### Labview Structure
-_The labview program is written using a basic QMH paradigm.__ 
+_The labview program is written using a basic QMH paradigm.__
+
 This enables quick response to user events such a keyboard inputs and front panel buttons.
 ![image](https://user-images.githubusercontent.com/97303986/224077007-153a398a-cb61-4f32-9b73-8443913aec48.png)
 
