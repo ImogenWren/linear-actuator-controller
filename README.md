@@ -28,8 +28,8 @@ To Run Executable - Double click on icon XXXXX
 
 ## Labview Panel & Controls
 _Actuator is controlled via the Left and Right direction keys. Letting go of either keys automatically applies the brake_
-- Speed controlled via Speed Knob
-![image](https://user-images.githubusercontent.com/97303986/224076750-c9df68b5-1f01-4646-8ce0-debf2f2c3d64.png)
+- Speed controlled via Speed Knob <br>
+![image](https://user-images.githubusercontent.com/97303986/224076750-c9df68b5-1f01-4646-8ce0-debf2f2c3d64.png) <br>
 Actuator Status is displayed in `Motor Status` Traffic Light Cluster
 
 
