@@ -1,36 +1,43 @@
-/* Infineon Motor Driver Analog & Direction to PWM Motor Controller
+/* Infineon Motor Driver Controller - Speed, Direction & Brake Input
 
-   Infineon Inputs
+Program to drive Infineon Motor Driver Sheild for Arduino Uno
+ 
+ Control Inputs:
+ Brake - Digital (HIGH/LOW)
+ Direction - Digital (HIGH/LOW)
+ Speed - Analog (0 - 5v)
 
-
-
+Outputs:
+PWM - Controls Speed and Direction based on whether sent into IN_1 or IN_2 on Infineon Motor Driver Shield.
+Enable (1 and 2) - Digital pins (HIGH/LOW) to enable motor drive. 
 */
 
 
 // Infineon Motor Driver Pins
-
-
-
 #define ENABLE_2 13
 #define ENABLE_1 12
 #define IN_2 11
 #define IN_1 3
 
+// Current Sense Pins (Unused - but connected so do not use for other purposes)
 #define I_SENSE_1 A0
 #define I_SENSE_2 A1
 
 
-// Control Pins
+// Control Pins - Connections from control device to these pins on Arduino
 #define BRAKE_INPUT 7
 #define DIRECTION_INPUT 5
 
 #define ANALOG_CONTROL_IN A5
 
+// Definitions just to make code more human readable
 #define RETRACT true
 #define EXTEND false
 
+// This is my owm library, find it at https://github.com/PanGalacticTech/autoDelay_Library
+// Only used in debug messages to time printing without blocking other software actions. Can be removed by removing (autoDelay.millisDelay(DEBUG_DELAY_mS)" 
+// And replacing with millis() timer functions (see arduino example "blink without delay")
 #include <autoDelay.h>
-
 autoDelay autoDelay;
 #define DEBUG_DELAY_mS 500
 #define DEBUG true
@@ -47,10 +54,11 @@ bool directionState = RETRACT;
 bool brakeState = true;
 uint16_t speedState = 0;
 
+
 void setEnablePins(bool brake) {
   bool state;
   if (brake){
-    state = false;
+    state = false;                         // If brake action is reversed swap true and false here.
   } else {
     state = true;
   }
@@ -63,6 +71,9 @@ void stopPWM() {
   analogWrite(IN_1, 0);
 }
 
+// Motor direction is controlled by writing PWM to one of two inputs and 0 to the other. 
+// Potential for shoot through conditions! If operating long term should be written into a state machine with (0,0) (0,1) (1.0) as allowable states and (1,1) as 
+// illegal state. State (0,1) cannot go direct to state (1,0), or vise versa without passing through state (0,0)
 void setPWMpins(bool direction, uint8_t speed) {
   if (direction) {
     analogWrite(IN_1, speed);
@@ -81,9 +92,9 @@ uint16_t sampleSpeed() {
 
 
 void sampleBrake() {
-  brakeState = !digitalRead(BRAKE_INPUT);
-}
-
+  brakeState = !digitalRead(BRAKE_INPUT);        // Brakestate is NOT -> BRAKE_INPUT level.  act
+}                                                 // therefore brakeState is HIGH when pin is low - i.e. the system IS failsafe to brake active if the pin is low.
+                                                   // active HIGH input to release software brake
 void sampleDirection() {
   directionState = digitalRead(DIRECTION_INPUT);
 }
@@ -137,10 +148,8 @@ void setup() {
   pinMode(ENABLE_1, OUTPUT);
   pinMode(IN_2, OUTPUT);
   pinMode(IN_1, OUTPUT);
-
   pinMode(BRAKE_INPUT, INPUT);
   pinMode(DIRECTION_INPUT, INPUT);
-
   setEnablePins(false);
   stopPWM();
 }
