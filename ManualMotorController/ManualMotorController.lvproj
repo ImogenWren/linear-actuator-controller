@@ -306,6 +306,47 @@
 			<Item Name="Status Lights.ctl" Type="VI" URL="../controls/Status Lights.ctl"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build">
+			<Item Name="Main" Type="EXE">
+				<Property Name="App_copyErrors" Type="Bool">true</Property>
+				<Property Name="App_INI_aliasGUID" Type="Str">{CBC5A217-13AF-4EE0-887D-C69DED191CC4}</Property>
+				<Property Name="App_INI_GUID" Type="Str">{A3B4DB15-4CC8-4389-8785-8EA42B461987}</Property>
+				<Property Name="App_serverConfig.httpPort" Type="Int">8002</Property>
+				<Property Name="App_serverType" Type="Int">0</Property>
+				<Property Name="Bld_autoIncrement" Type="Bool">true</Property>
+				<Property Name="Bld_buildCacheID" Type="Str">{D31F6F9A-89A1-459C-863D-9AA7E8F95B87}</Property>
+				<Property Name="Bld_buildSpecName" Type="Str">Main</Property>
+				<Property Name="Bld_excludeInlineSubVIs" Type="Bool">true</Property>
+				<Property Name="Bld_excludeLibraryItems" Type="Bool">true</Property>
+				<Property Name="Bld_excludePolymorphicVIs" Type="Bool">true</Property>
+				<Property Name="Bld_localDestDir" Type="Path">../builds/NI_AB_PROJECTNAME/Main</Property>
+				<Property Name="Bld_localDestDirType" Type="Str">relativeToCommon</Property>
+				<Property Name="Bld_modifyLibraryFile" Type="Bool">true</Property>
+				<Property Name="Bld_previewCacheID" Type="Str">{38DEA44D-7D50-4F83-BE3F-74CA629EDA5E}</Property>
+				<Property Name="Bld_version.build" Type="Int">1</Property>
+				<Property Name="Bld_version.major" Type="Int">1</Property>
+				<Property Name="Destination[0].destName" Type="Str">MuscleMotorControl.exe</Property>
+				<Property Name="Destination[0].path" Type="Path">../builds/NI_AB_PROJECTNAME/Main/MuscleMotorControl.exe</Property>
+				<Property Name="Destination[0].preserveHierarchy" Type="Bool">true</Property>
+				<Property Name="Destination[0].type" Type="Str">App</Property>
+				<Property Name="Destination[1].destName" Type="Str">Support Directory</Property>
+				<Property Name="Destination[1].path" Type="Path">../builds/NI_AB_PROJECTNAME/Main/data</Property>
+				<Property Name="DestinationCount" Type="Int">2</Property>
+				<Property Name="Source[0].itemID" Type="Str">{4C986F70-0AB3-4C51-9398-22BA96E3CD8A}</Property>
+				<Property Name="Source[0].type" Type="Str">Container</Property>
+				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
+				<Property Name="Source[1].itemID" Type="Ref">/My Computer/Main.vi</Property>
+				<Property Name="Source[1].sourceInclusion" Type="Str">TopLevel</Property>
+				<Property Name="Source[1].type" Type="Str">VI</Property>
+				<Property Name="SourceCount" Type="Int">2</Property>
+				<Property Name="TgtF_companyName" Type="Str">The University of Edinburgh King's Buildings Campus</Property>
+				<Property Name="TgtF_fileDescription" Type="Str">Main</Property>
+				<Property Name="TgtF_internalName" Type="Str">Main</Property>
+				<Property Name="TgtF_legalCopyright" Type="Str">Copyright © 2023 The University of Edinburgh King's Buildings Campus</Property>
+				<Property Name="TgtF_productName" Type="Str">Main</Property>
+				<Property Name="TgtF_targetfileGUID" Type="Str">{DCE20D47-D692-4932-9D59-4994D1A420CF}</Property>
+				<Property Name="TgtF_targetfileName" Type="Str">MuscleMotorControl.exe</Property>
+				<Property Name="TgtF_versionIndependent" Type="Bool">true</Property>
+			</Item>
 			<Item Name="Main Application" Type="EXE">
 				<Property Name="App_copyErrors" Type="Bool">true</Property>
 				<Property Name="App_INI_aliasGUID" Type="Str">{51D186D8-2FD9-4F4B-8F36-40D68E57FFBC}</Property>
